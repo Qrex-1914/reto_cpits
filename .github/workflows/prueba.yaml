@@ -9,9 +9,9 @@ jobs:
     - name: build and push to docker
       uses: docker/build-push-action@v2
       with:
-        username: ${{ secrets.DOCKER_USER }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
-        repository: "jhon191/reto_cpits" 
+        username: "jhon1914"
+        password: "Mercurio1914"
+        repository: "jhon1914/reto_cpits" 
         tag_with_ref: true
         tag_with_sha: true
         tags: ${{ github.sha }}
